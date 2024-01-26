@@ -1,0 +1,7 @@
+.check-switch:checked + .slider{
+    transform: translateX(2.6rem);
+}
+
+nav{
+    box-shadow: 2px -2px 15px 0px #bbafaf;
+}
