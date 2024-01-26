@@ -21,7 +21,7 @@ function DetallePokemon({ mostrar, pokemon, cerrar }) {
                     <h3 className="titulo-seccion font-semibold text-[var(--text)]">Estadisticas</h3>
                     <div className='stats grid grid-cols-3 gap-2 text-[var(--text)]'>
                         {pokemon.stats?.map(stat =>
-                            <section className="flex items-center flex-col capitalize bg-gray-100 rounded-lg p-2 text-[var(--back)]">
+                            <section className="flex items-center flex-col capitalize bg-gray-100 rounded-lg p-2 text-black">
                                 <span className='puntos border-[2px] border-[#000] rounded-[50%] w-10 h-10 grid place-items-center '>{stat.base}</span>
                                 <span>{stat.name}</span>
                             </section>
